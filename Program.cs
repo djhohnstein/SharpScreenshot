@@ -20,7 +20,6 @@ namespace SharpScreenshot
             {
                 fileName = System.IO.Path.GetTempPath() + Guid.NewGuid().ToString() + ".jpeg";
             }
-            Rectangle bounds = Screen.GetBounds(Point.Empty);
             try
             {
                 // Determine the size of the "virtual screen", which includes all monitors.
